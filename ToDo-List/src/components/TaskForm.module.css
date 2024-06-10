@@ -1,0 +1,51 @@
+/* Grupo 1: Estilos do Formulário */
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 3.5rem;
+  column-gap: 1rem;
+  margin-top: -1.7rem;
+}
+
+/* Grupo 2: Estilos Comuns para Botão e Input */
+.form .button,
+.form .input {
+  border-radius: 8px;
+}
+
+/* Grupo 3: Estilos do Botão */
+.form .button {
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  border: transparent;
+  cursor: pointer;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  column-gap: 0.5rem;
+  font-weight: bold;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.form .button[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.form .button[type="submit"]:not(:disabled):hover {
+  background-color: var(--blue);
+}
+
+/* Grupo 4: Estilos do Input */
+.form .input {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  border: none;
+  outline: 2px solid transparent;
+  padding: 1rem;
+}
+
+.form:focus-within .input {
+  outline: 2px solid var(--purple-dark);
+}
