@@ -1,0 +1,92 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 13000,
+      "createdAt": "2024-06-13T12:49:38.236Z"
+    },
+    {
+      "id": 2,
+      "description": "Almoço",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 13,
+      "createdAt": "2024-06-13T12:49:40.236Z"
+    },
+    {
+      "category": "Venda",
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2024-06-15T00:53:43.298Z",
+      "id": 3
+    },
+    {
+      "category": "Alimentação",
+      "description": "Janta",
+      "price": 15,
+      "type": "outcome",
+      "createdAt": "2024-06-15T12:04:31.191Z",
+      "id": 4
+    },
+    {
+      "category": "Alimentação",
+      "description": "Amoço",
+      "price": 15,
+      "type": "outcome",
+      "createdAt": "2024-06-15T12:15:02.009Z",
+      "id": 5
+    },
+    {
+      "category": "Curso",
+      "description": "Compra do Ignite da Rocketseat",
+      "price": 1900,
+      "type": "outcome",
+      "createdAt": "2024-06-15T12:37:05.191Z",
+      "id": 6
+    },
+    {
+      "category": "Venda",
+      "description": "Projeto de banco de dadps",
+      "price": 100,
+      "type": "income",
+      "createdAt": "2024-06-15T12:37:57.975Z",
+      "id": 7
+    },
+    {
+      "category": "Alimentação",
+      "description": "Marmita",
+      "price": 15,
+      "type": "income",
+      "createdAt": "2024-06-16T12:39:07.066Z",
+      "id": 8
+    },
+    {
+      "category": "Diversão",
+      "description": "Jogar sinuca",
+      "price": 12,
+      "type": "outcome",
+      "createdAt": "2024-06-16T12:56:20.328Z",
+      "id": 9
+    },
+    {
+      "category": "DIversão",
+      "description": "Jogar sinuca de novo",
+      "price": 15,
+      "type": "outcome",
+      "createdAt": "2024-06-16T13:08:21.080Z",
+      "id": 10
+    },
+    {
+      "category": "Compra",
+      "description": "Camisa nova",
+      "price": 55,
+      "type": "outcome",
+      "createdAt": "2024-06-16T13:13:03.274Z",
+      "id": 11
+    }
+  ]
+}
